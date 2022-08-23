@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeRealm</title>
+    <link rel="shortcut icon" href="./favicon_io (2)/favicon.ico" type="image/x-icon">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--website icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!--website icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--CSS-->
+    <link rel="stylesheet" href="CodeRealm-header.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav id="navbar">
+            <div class="logo-div">
+                <a href="#home-div" class="logo nav-links">&lt;/CodeRealm&gt;</a>
+            </div>
+            <div class="nav-links-div">
+                <a href="#home-div" class="nav-links">Home</a>
+                <div class="dropdown">
+                    <button class="drop-button">Courses 
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="dropdown-header">
+                            <h2>Our Popular Courses</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div>
+                                    <a href="https://www.w3schools.com/html/"><img src="../Website-Header/header-logo/html-5.png" alt="" width="50px">HTML</a>
+                                    <a href="https://www.w3schools.com/w3css/defaulT.asp"><img src="../Website-Header/header-logo/css.png" alt="" width="50px">CSS</a>
+                                    <a href="https://www.w3schools.com/js/"><img src="../Website-Header/header-logo/javascript logo.png" alt="" width="50px">JavaScript</a>
+                                    <a href="https://www.w3schools.com/python/"><img src="../Website-Header/header-logo/python-logo.png" alt="" width="50px">Python</a>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <h3>Try It Yourself!</h3>
+                                <a href="https://www.w3schools.com/html/html_quiz.asp">HTML Quiz</a>
+                                <a href="https://www.w3schools.com/css/css_quiz.asp">CSS Quiz</a>
+                                <a href="https://www.w3schools.com/js/js_quiz.asp">JavaScript Quiz</a>
+                                <a href="https://www.w3schools.com/python/python_quiz.asp">Python Quiz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#about-us-div" class="nav-links">About Us</a>
+                <a href="#contact-us-div" class="nav-links">Contact Us</a>
+            </div>
+            <div class="login-links">
+                <a href="http://localhost/registeration-login-system-master/login.php" class="nav-links">login</a>
+                <span class="verbar"> &verbar; </span>
+                
+                <span><a href="http://localhost/registeration-login-system-master/registration.php" class="nav-links">register</a></span> 
+            </div>
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="" method="">
+                    <div class="container">
+                        <h1>Welcome Back</h1>
+                        <p class="form-desc">Build skills for today, tomorrow, and beyond.
+                            <br>
+                            Education to future-proof your career.
+                        </p>
+                        
+                        <div class="signup-option-link-div">
+                            <a href="#" class="signup-option-link"><img src="https://img.icons8.com/bubbles/50/000000/google-logo.png"/>Sign in with Google</a>
+                            <a href="#" class="signup-option-link"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/>Sign in with Facebook</a>
+                        </div>
+            
+                        <div class="span">
+                            <hr class="line"><span class="or">or</span>
+                            <hr class="line">
+                        </div>
+            
+                        <div class="form-inputs">
+                            <input type="text" id="email" placeholder="Email Address" name="email" required>
+                            <br>
+                            <input type="password" id="password" placeholder="Password" name="password" required>
+                        </div>
+            
+                        <div class="terms-policy">
+                            <p>By clicking Sign In, you agree to our <span class="terms"><a href="#">Terms of Use</a></span> and our <span class="policy"><a href="#">Privacy Policy.</a></span>
+                            </p>
+                        </div>
+            
+                        <div class="clearfix">
+                            <button type="submit" class="signup">Sign In</button>
+                        </div>
+            
+                        <div class="new">
+                            <a href="#" onclick="document.getElementById('id02').style.display='block'" class="create">New to CodeRealm? Sign up here
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="id02" class="modal">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="" method="">
+                    <div class="container">
+                        <h1>Sign Up</h1>
+                        <p class="form-desc">Build skills for today, tomorrow, and beyond.
+                            <br>
+                            Education to future-proof your career.
+                        </p>
+                        
+                        <div class="signup-option-link-div">
+                            <a href="#" class="signup-option-link"><img src="https://img.icons8.com/bubbles/50/000000/google-logo.png"/>Sign up with Google</a>
+                            <a href="#" class="signup-option-link"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/>Sign up with Facebook</a>
+                        </div>
+        
+                        <div class="span">
+                            <hr class="line"><span class="or">or</span>
+                            <hr class="line">
+                        </div>
+        
+                        <div class="form-inputs">
+                            <input type="text" name="fname" id="fname" placeholder="First name" required>
+                            <br>
+                            <input type="text" name="lname" id="lname" placeholder="Last name">
+                            <br>
+                            <input type="text" id="email" placeholder="Email Address" name="email" required>
+                            <br>
+                            <input type="password" id="password" placeholder="Password" name="password" required>
+                        </div>
+        
+                        <div class="terms-policy">
+                            <p>By clicking Sign Up, you agree to our <span class="terms"><a href="#">Terms of Use</a></span> and our <span class="policy"><a href="#">Privacy Policy.</a></span>
+                            </p>
+                        </div>
+        
+                        <div class="clearfix">
+                            <button type="submit" class="signup">Sign Up</button>
+                        </div>
+        
+                        <div class="already-have">
+                            <a href="#" onclick="document.getElementById('id01').style.display='block'" class="create">Already have an account? Sign in here
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script>
+                // Get the modal
+                var modal_1 = document.getElementById('id01');
+                var modal_2 = document.getElementById('id02');
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if ((event.target == modal_1) || (event.target == modal_2)) {
+                        modal_1.style.display = "none";
+                        modal_2.style.display = "none";
+                    }
+                }
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home-div">
+            <div class="home-div-style">
+                <div class="home-style">
+                    <h1>Discover a new way of Learning</h1>
+                    <p class="home-desc">Start your coding journey with us</p>
+                    <input type="button" name="get-started" value="Get Started" id="home-start-button" onclick="document.getElementById('id02').style.display='block'">
+                    <p><span>10+</span> courses we have on <em>CodeRealm</em></p>
+                    <!-- <a href="#" class="home-explore-link">Explore all courses</a> -->
+                </div>
+                <div class="image-div">
+                    <img src='https://www.linkpicture.com/q/CodeRealm-intro-removebg-preview.png' alt='' class="home-image" width="600px">
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="join-div">
+            <div class="join-image-div">
+                <div class="image-style">
+                    <div class="orange-circle"></div>
+                    <img src='https://www.linkpicture.com/q/register-yourself-2.jpg' alt='' class="join-image" width="400px">
+                </div>
+            </div>
+            <div class="join-info">
+                <h2>World Class Learning for You</h2>
+                <p>Take the next step toward your personal and professional goals with CodeRealm.</p>
+                <input type="button" name="register-info" value="Join for free" class="join-button" onclick="document.getElementById('id02').style.display='block'">
+            </div>
+        </div>                                                                      
+  
+        <div id="courses-div">
+            <div class="courses-style">
+                <h2>Explore Our Popular Courses</h2>
+                <!-- <div class="courses-tag-div">
+                    <a href="#" class="courses-tag">HTML</a>
+                    <a href="#" class="courses-tag">CSS</a>
+                    <a href="#" class="courses-tag">JavaScript</a>
+                    <a href="#" class="courses-tag">Python</a>
+                </div> -->
+                <div class="courses-desc">
+                    <p>
+                        Break into a new field with us. No prior experience necessary to get started.
+                    </p>
+                </div>
+                <div class="catalog-div">
+                    <a href="https://www.w3schools.com/html/" class="catalog">
+                        <img src='https://images.unsplash.com/photo-1540397106260-e24a507a08ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNTQ5NTk4Nw&ixlib=rb-1.2.1&q=80&w=400' alt='' width="270px" class="catalog-image"><p class="courses-name">HTML</p>
+                        <p class="course-level">Beginner Friendly</p>
+                        <p class="offered-by">Offered by <strong><em>CodeRealm</em></strong></p>
+                    </a>
+                    <a href="https://www.w3schools.com/w3css/defaulT.asp" class="catalog">
+                        <img src='https://images.unsplash.com/photo-1581472723648-909f4851d4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNjE2OTQxOA&ixlib=rb-1.2.1&q=80&w=400' alt='' width="270px" class="catalog-image"><p class="courses-name">CSS</p>
+                        <p class="course-level">Beginner Friendly</p>
+                        <p class="offered-by">Offered by <strong><em>CodeRealm</em></strong></p>
+                    </a>
+                    <a href="https://www.w3schools.com/js/" class="catalog">
+                        <img src='https://images.unsplash.com/photo-1617471346061-5d329ab9c574?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNjE2OTQxOA&ixlib=rb-1.2.1&q=80&w=400' alt='' width="270px" class="catalog-image"><p class="courses-name">JavaScript</p>
+                        <p class="course-level">Beginner Friendly</p>
+                        <p class="offered-by">Offered by <strong><em>CodeRealm</em></strong></p>
+                    </a>
+                    <a href="https://www.w3schools.com/python/" class="catalog">
+                        <img src='https://images.unsplash.com/photo-1542762933-ab3502717ce7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNjE2OTQxOA&ixlib=rb-1.2.1&q=80&w=400' alt='' width="270px" class="catalog-image"><p class="courses-name">Python
+                        </p>
+                        <p class="course-level">Beginner Friendly</p>
+                        <p class="offered-by">Offered by <strong><em>CodeRealm</em></strong></p>
+                    </a>
+                </div>
+                <a href="#" class="courses-explore-link">Explore all courses</a>
+            </div>
+        </div>
+  
+  
+        <div id="about-us-div">
+            <h2 style="text-align: center;">About us</h2>
+            <p class="quote">"Education is an Art, and We are the Artist"</p>
+            <p id="written-by"> ~ CodeRealm</p>
+            <div class="div1">
+                <div class="about-us-image-div">
+                    <img src='https://www.linkpicture.com/q/about-us1.jpg' alt='' class="about-us-image1" width="600px">
+                </div>
+                <p class="about-us-para1">We are The Learners,<br>&emsp;&emsp;&emsp;We are a community of lifelong learners who are on a journey to bridge the gap between our ambitions and abilities.</p>
+            </div>
+            
+
+
+            <div class="about-us-page2">
+                <div class="page2-style">
+                    <h2 class="about-coderealm">About&nbsp;<strong><em>CodeRealm</em></strong></h2>
+                    <div class="page2-flex">
+                        <p>Our goal was to give anyone in the world the ability to learn the skills they’d need to succeed in the 21st century. We set out to create a new, interactive way of learning — making it engaging, flexible, and accessible for as many people as possible.</p>
+                        <div class="about-us-imag-div">
+                            <img src='https://www.linkpicture.com/q/about-us2_1.png' alt='' class="about-us-image2" width="700px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="page3-style">
+                <div style="margin: 0 auto; max-width: 1300px;">
+                    <h2 class="mission">Our Mission</h2>
+                    <div class="page3-flex">
+                        <div class="about-us-image-div">
+                            <img src='https://www.linkpicture.com/q/mission.jpg' alt='' class="about-us-image3" width="600px">
+                        </div>
+                        <p>We want to create a world where anyone can build something meaningful with technology, and everyone has the learning tools, resources, and opportunities to do so. Code contains a world of possibilities — all that’s required is the curiosity and drive to learn. At CodeRealm, we are committed to empowering all people, regardless of where they are in their coding journeys, to continue to learn, grow, and make an impact on the world around them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+  
+        <div id="get-started-div">
+            <div class="get-started-style">
+                <div>
+                    <h2 class="get-started-heading">It's time to start investing in yourself</h2>
+                    <p class="get-started-para">Because learning to code might be the easiest way to change your career.</p>
+                    <input type="button" name="get started" value="Get Started" id="get-started-button" onclick="document.getElementById('id02').style.display='block'">
+                </div>
+                <div class="get-started-image-div">
+                    <img src='https://www.linkpicture.com/q/join-us.png' alt='' class="get-started-image" width="600px">
+                </div>
+            </div>
+        </div>
+  
+  
+        <div id="team">
+            <div class="team-style">
+                <div class="team-grid">
+                    <h2 class="team-heading">The <strong><em>Team</em></strong></h2>
+                    <p class="team-desc">We are fans of digital, geeks by nature, addicted to social networks and completely crazy about design.</p>
+                </div>
+                <div class="team-detail">
+                    <div class="team-member-grid">
+                        <a href="#" class="team-link">
+                            <svg viewBox="0 0 448 512" width="100" title="user-tie">
+                            <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" />
+                            </svg><p class="name">Anuj Mundra</p>
+                        </a>
+                        <a href="#" class="team-link">
+                            <svg viewBox="0 0 448 512" width="100" title="user-tie">
+                            <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" />
+                            </svg><p class="name">Meet Arora</p>
+                        </a>
+                        <a href="#" class="team-link">
+                            <svg viewBox="0 0 448 512" width="100" title="user-tie">
+                            <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" />
+                            </svg><p class="name">Rishabh Jain</p>
+                        </a>
+                        <a href="#" class="team-link">
+                            <svg viewBox="0 0 448 512" width="100" title="user-tie">
+                            <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z" />
+                            </svg><p class="name">Lakshay Kumar</p>
+                        </a>
+                    </div>
+                    <div class="team-image-div">
+                        <img src='https://www.linkpicture.com/q/the-team.png' alt='' class="team-image" width="600px">
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+ 
+        <div id="contact-us-div">
+            <div class="contact-us-style">
+                <div class="contact-us-image-div">
+                    <img src='https://www.linkpicture.com/q/Contact-us.png' alt='' class="contact-image" width="600px">
+                </div>
+                <div class="contact-details">
+                    <h2>Contact Us</h2>
+                    <p class="contact-desc">Our team are here to help you!</p>
+                    <input type="text" name="contact-name" placeholder="Name" id="contact-name">
+                    <br>
+                    <input type="email" name="contact-email" placeholder="Email" id="contact-email">
+                    <br>
+                    <textarea class="contact-textarea" placeholder="Write here..."></textarea>
+                    <br>
+                    <input type="submit" name="submit" value="Submit" class="contact-submit">
+                </div>
+            </div>
+        </div>
+  
+  
+        <div id="feedback-div">
+            <div class="feedback-style">
+                <div class="feedback-form">
+                    <h2 class="feedback-heading">Give Us Your Feedback</h2>
+                    <p class="feedback-desc">We would love to hear your thoughts, suggestions, concerns or problem with anything so we can improve!</p>
+                    <input type="text" name="feedback-name" placeholder="Name" id="feedback-name">
+                    <br>
+                    <input type="email" name="feedback-email" placeholder="Email" id="feedback-email">
+                    <br>
+                    <textarea class="feedback-textarea" placeholder="Write your feedback here..."></textarea>
+                    <br>
+                    <input type="submit" name="submit" value="Submit" class="feedback-submit">
+                </div>
+                <div class="feedback-image-div">
+                    <img src='https://www.linkpicture.com/q/feedback.jpg' alt='' class="feedback-image" width="750px">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    
+    <footer id="footer">
+        <div class="FAQ">
+            <h2 class="footer-logo">
+                <strong>&lt;/CodeRealm&gt;</strong>
+            </h2>
+            <div class="footer-style">
+                <div class="page-links-div">
+                    <h2>CodeRealm</h2>
+                    <a href="#" class="page-link">Home</a>
+                    <br>
+                    <a href="#" class="page-link">Courses</a>
+                    <br>
+                    <a href="#" class="page-link">About Us</a>
+                    <br>
+                    <a href="#" class="page-link">Contact Us</a>
+                    <br>
+                    <a href="#" class="page-link">Register</a>
+                </div>
+        
+                <div class="subscribe-div">
+                    <h2>Subscribe Us</h2>
+                    <p class="subscribe-para">Subscribe us for information regarding our upcomng courses</p>
+                    <input type="email" name="subscriber" placeholder="Email" class="subscribe-email">
+                    <br>
+                    <input type="submit" name="subscribe" value="Subscribe" class="subscribe-submit">
+                </div>
+                <div id="copyright-info">
+                    <p>&copy; Copyright reserved to CodeRealm..2021</p>
+                    <div class="icons-div">
+                        <a href="https://facebook.com/freecodecamp" target="_blank" class="icons"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://github.com/freecodecamp" target="_blank" class="icons"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/freecodecamp" target="_blank" class="icons"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:example@example.com" target="_blank" class="icons"><i class="fas fa-at"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+    
+    
+</body>
+
+</html>
